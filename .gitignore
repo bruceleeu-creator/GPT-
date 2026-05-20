@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+data/*.db
+data/*.json
+logs/
+*.log
+nohup.out
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
